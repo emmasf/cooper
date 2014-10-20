@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin:0;
+  padding:0;
+  font-family:Whitney;
+}
+
+h1 {
+  font-weight:200;
+  font-size:30px;
+}
+
+p.top-name {
+  font-weight:200;
+  font-size:40px;
+  color:#21A1D3;
+}
+
+p.stats {
+  margin-bottom:0px;
+  }
+
+nav {
+  width:100%;
+  position:fixed;
+  top:0;
+  background-color:rgba(0,0,0,0.125);
+  height:45px;
+}
+
+#page{
+  margin:0px auto;
+  width:972px;
+}
+
+#top-bio {
+  background-color:#aaa; 
+  clear:both;
+}
+
+.hugo {
+  
+}
+
+.column {
+  float:left;
+  margin:right:20px;
+}
+
+.fourth.column {
+  width:220px;
+}
+
+.threefourths.column {
+  width:700px;
+}
+
+
+#cards {
+  height:45px;
+  clear:both;
+}
+
+#cooperistas {
+  clear:both;
+  margin-top:30px;
+  min-height:10px;
+  }
+
+.big .c-thumb {
+  float:left;
+  margin: 0 10px 12px 0;
+  width: 230px;
+  position:relative;
+  }
+
+.big .label {
+  position:absolute;
+  bottom:-11px;
+}
+
+.big .label p {  
+  background-color:rgba(255,255,255,.8);
+  padding:5px 8px;
+  }
+
+.c-thumb img {
+  width:100%;
+}
+
+.c-thumb::last {
+  clear:both;
+  margin-bottom:200px;
+}
+
+footer {
+  height:90px;
+  background-color:#333;
+  width:100%;
+  display:none;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-Black.otf);
+	font-weight:900;
+	font-style:normal;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-BlackItalic.otf);
+	font-weight:900;
+	font-style:italic;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-Bold.otf);
+	font-weight:700;
+	font-style:normal;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-BoldItalic.otf);
+	font-weight:700;
+	font-style:italic;
+	}
+
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-Semibold.otf);
+	font-weight:600;
+	font-style:normal;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-SemiboldItalic.otf);
+	font-weight:600;
+	font-style:italic;
+	}
+
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-Medium.otf);
+	font-weight:500;
+	font-style:normal;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-MediumItalic.otf);
+	font-weight:500;
+	font-style:italic;
+	}
+	
+	@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-Book.otf);
+	font-weight:300;
+	font-style:normal;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-BookItalic.otf);
+	font-weight:300;
+	font-style:italic;
+	}
+	
+	@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-Light.otf);
+	font-weight:200;
+	font-style:normal;
+	}
+	
+@font-face {
+    font-family: Whitney;
+    src: (../../type/Whitney-LightItalic.otf);
+	font-weight:200;
+	font-style:italic;
+	}
+	
