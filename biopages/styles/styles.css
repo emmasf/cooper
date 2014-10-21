@@ -53,7 +53,7 @@ p.stats, .factoid p {
 	height:23px;
 	width:16px;
 	float:left;
-	margin-right:9px;
+	margin-right:12px;
 	fill:#777;	
 	padding-top:7px; 
 	 }
@@ -67,6 +67,7 @@ p.stats, .factoid p {
 #behance {
 	height:27px;
 	width:20px;
+	margin-top:-4px
 	}
 #dribbble { }
 #twitter {  }
