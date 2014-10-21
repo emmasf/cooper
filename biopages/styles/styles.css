@@ -62,16 +62,16 @@ p.stats, .factoid p {
 		fill:#000;
 }
 	
-#email { margin-top:1px; }
+#email { }
 #linkedin { }
 #behance {
 	height:27px;
 	width:20px;
 	}
 #dribbble { }
-#twitter { margin-top:2px; }
+#twitter {  }
 #tumblr { }
-#instagram { margin-top:2px; }
+#instagram { }
 #facebook { }
 
 
