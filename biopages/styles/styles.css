@@ -61,7 +61,31 @@ nav {
 }
 
 #hugo {
- margin-bottom:45px; 
+ margin:0 0 45px 0;
+ padding:0; 
+}
+
+.pager {
+  position:absolute;
+  z-index:101;
+  top:300px;
+  font-size: 60px;
+  font-weight:100;
+  color:rgba(255,255,255,0.75); 
+}
+
+.pager:hover {
+  color:#000;
+    background-color:rgba(255,255,255,0.25);
+}
+
+
+.cycle-prev {
+  padding: 4px 10px 0 15px;
+}
+.cycle-next {
+  right:12px;
+  padding: 4px 15px 0 10px;
 }
 
 .column {
@@ -262,7 +286,7 @@ footer {
 	font-style:italic;
 	}
 	
-	@font-face {
+@font-face {
     font-family: Whitney;
     src: (../../type/Whitney-Light.otf);
 	font-weight:200;
