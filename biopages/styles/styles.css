@@ -45,6 +45,7 @@ p.stats, .factoid p {
   margin:0 0 2px 0;
   line-height:15px;
   font-size:13px;
+  color:#777;
   }
 
 nav {
@@ -79,7 +80,7 @@ nav {
 
 
 #trivia {
-  height:100px;
+  height:120px;
   clear:both;
 }
 
@@ -88,25 +89,25 @@ nav {
   width:220px;
   float:left;
   margin-right:18px;
-  margin-top:25px;
+  margin-top:35px;
 }
 
 .factoid p {
-  margin:8px 0 0 0;  
+  margin:9px 0 0 0;  
 }
 
 .factoid svg {
   width:45px;
   height:45px;
   float:left;
-  margin-right: 5px;
+  margin-right: 10px;
   fill: #F55949;
-
 }
 
 #cards {
   height:45px;
   clear:both;
+  display:none;
 }
 
 #cooperistas {
@@ -114,6 +115,12 @@ nav {
   margin-top:30px;
   min-height:10px;
   }
+  
+  a .c-thumb {
+	text-decoration:none;
+	color:#000;
+	}
+	
 
 /*** Big Grid*****************************/
 
