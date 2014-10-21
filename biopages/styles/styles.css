@@ -7,6 +7,7 @@ blue: #21A1D3;
 red: #F55949;
 yellow: #F6BB42;
 green: #9ACC54;
+gray: #777;
 
 *************************/
 
@@ -17,7 +18,7 @@ html, body {
   font-family:Whitney;
 }
 
-#page{
+#page {
   margin:0px auto;
   width:952px;
 }
@@ -45,7 +46,35 @@ p.stats, .factoid p {
   margin:0 0 2px 0;
   line-height:15px;
   font-size:13px;
+  color:#777;
   }
+  
+.social-icons {
+	height:23px;
+	width:16px;
+	float:left;
+	margin-right:9px;
+	fill:#777;	
+	padding-top:7px; 
+	 }
+	 
+.social-icons:hover {
+		fill:#000;
+}
+	
+#email { margin-top:1px; }
+#linkedin { }
+#behance {
+	height:27px;
+	width:20px;
+	}
+#dribbble { }
+#twitter { margin-top:2px; }
+#tumblr { }
+#instagram { margin-top:2px; }
+#facebook { }
+
+
 
 nav {
   width:100%;
@@ -78,14 +107,15 @@ nav {
 
 .pager:hover {
   color:#000;
-  background-color:rgba(255,255,255,0.5);
+  background-color:rgba(0,0,0,0.025);
 }
 
 .cycle-prev {
   padding: 6px 15px 0 20px;
+  left:-69px;
 }
 .cycle-next {
-  right:12px;
+  right:-57px;
   padding: 6px 20px 0 15px;
 }
 
@@ -104,7 +134,7 @@ nav {
 
 
 #trivia {
-  height:100px;
+  height:120px;
   clear:both;
 }
 
@@ -113,7 +143,7 @@ nav {
   width:220px;
   float:left;
   margin-right:18px;
-  margin-top:25px;
+  margin-top:35px;
 }
 
 .factoid p {
@@ -132,6 +162,7 @@ nav {
 #cards {
   height:45px;
   clear:both;
+  display:none;
 }
 
 #cooperistas {
@@ -305,5 +336,18 @@ footer {
     src: (../../type/Whitney-LightItalic.otf);
 	font-weight:200;
 	font-style:italic;
+	}
+	
+	
+@font-face {
+    font-family: icons;
+    src: (../../type/ss-standard.otf);
+	font-weight:400;
+	}
+	
+@font-face {
+    font-family: icons;
+    src: (../../type/ss-social-regular.otf);
+	font-weight:700;
 	}
 	
