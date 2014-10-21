@@ -54,7 +54,7 @@ p.stats, .factoid p {
 	width:16px;
 	float:left;
 	margin-right:12px;
-	fill:#777;	
+	fill:#888;	
 	padding-top:7px; 
 	 }
 	 
@@ -71,7 +71,7 @@ p.stats, .factoid p {
 	margin-right: 14px;
 	}
 #dribbble { }
-#twitter {  }
+#twitter { margin-top:1px; }
 #tumblr { }
 #instagram { }
 #facebook { }
