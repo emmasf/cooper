@@ -115,9 +115,11 @@ nav {
 .cycle-prev {
   padding: 6px 15px 0 20px;
   left:-69px;
+  left:0
 }
 .cycle-next {
   right:-57px;
+  right:12px;
   padding: 6px 20px 0 15px;
 }
 
