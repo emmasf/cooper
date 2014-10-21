@@ -70,15 +70,16 @@ nav {
 .pager {
   position:absolute;
   z-index:101;
-  top:300px;
+  top:280px;
   font-size: 60px;
   font-weight:100;
-  color:rgba(255,255,255,0.75); 
+  color:rgba(0,0,0,0.5); 
+  background-color:rgba(255,255,255,0.25);
 }
 
 .pager:hover {
   color:#000;
-  background-color:rgba(255,255,255,0.25);
+  background-color:rgba(255,255,255,0.5);
 }
 
 
