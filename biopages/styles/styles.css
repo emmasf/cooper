@@ -68,6 +68,31 @@ nav {
 }
 
 
+#trivia {
+  height:100px;
+  clear:both;
+}
+
+.factoid {
+  height:45px;
+  width:220px;
+  background-color:red;
+  float:left;
+  margin-right:18px;
+  margin-top:25px;
+}
+
+.factoid p {
+  margin:8px 0 0 0;  
+}
+
+.factoid img {
+  width:45px;
+  height:45px;
+  float:left;
+}
+
+
 #cards {
   height:45px;
   clear:both;
