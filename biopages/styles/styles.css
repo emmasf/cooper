@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/** COOPER COLORS *************
+
+blue: #21A1D3;
+red: #F55949;
+yellow: #F6BB42;
+green: #9ACC54;
+
+*************************/
+
+
 html, body {
   margin:0;
   padding:0;
@@ -31,9 +41,9 @@ p.top-name {
   margin-bottom:10px;
 }
 
-p.stats {
-  margin:0;
-  line-height:18px;
+p.stats, .factoid p {
+  margin:0 0 2px 0;
+  line-height:15px;
   font-size:13px;
   }
 
@@ -76,7 +86,6 @@ nav {
 .factoid {
   height:45px;
   width:220px;
-  background-color:red;
   float:left;
   margin-right:18px;
   margin-top:25px;
@@ -86,12 +95,14 @@ nav {
   margin:8px 0 0 0;  
 }
 
-.factoid img {
+.factoid svg {
   width:45px;
   height:45px;
   float:left;
-}
+  margin-right: 5px;
+  fill: #F55949;
 
+}
 
 #cards {
   height:45px;
