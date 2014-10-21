@@ -73,8 +73,7 @@ nav {
   top:280px;
   font-size: 60px;
   font-weight:100;
-  color:rgba(0,0,0,0.5); 
-  background-color:rgba(255,255,255,0.25);
+  color:rgba(0,0,0,0.125); 
 }
 
 .pager:hover {
@@ -82,13 +81,12 @@ nav {
   background-color:rgba(255,255,255,0.5);
 }
 
-
 .cycle-prev {
-  padding: 4px 10px 0 15px;
+  padding: 6px 15px 0 20px;
 }
 .cycle-next {
   right:12px;
-  padding: 4px 15px 0 10px;
+  padding: 6px 20px 0 15px;
 }
 
 .column {
